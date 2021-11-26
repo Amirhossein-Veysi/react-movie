@@ -23,7 +23,6 @@ const Movie = () => {
     if (loading) return <Spinner />;
     if (error) return <ErrorAlert />;
 
-    console.log(movie);
     return (
         <>
             <BreadCrumb movieTitle={movie.original_title} />
